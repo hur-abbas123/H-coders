@@ -1,0 +1,20 @@
+.footer{
+    height: 50px;
+    color: aliceblue;
+    background: #333333;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 6px;
+}
+.footer h4 {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 15px;
+}
+@media only screen and (max-width: 590px){
+    .footer h4 {
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
